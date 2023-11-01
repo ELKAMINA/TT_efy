@@ -42,7 +42,7 @@ const FormComponent = class {
   this.setStyles();
  }
 
- // Retrieve all option for the select HTML element
+ // Retrieve all options for the select HTML element
  getSelectOptions() {
   oppoStatus.forEach((el) => {
    const option = document.createElement("option");
@@ -52,7 +52,7 @@ const FormComponent = class {
   });
  }
 
- // Retrieve the right succed index for the selected element
+ // Retrieve the right success index for the selected element
  getSuccessInput() {
   this.selectElement.addEventListener("change", () => {
    const status = oppoStatus.find(
@@ -62,7 +62,7 @@ const FormComponent = class {
   });
  }
 
- // Manage and display the right output
+ // Manage and display the right outputs
  setResultSubmission() {
   this.form.addEventListener("submit", (e) => {
    e.preventDefault();
