@@ -1,0 +1,38 @@
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 3%;
+    width:450px;
+}
+
+select, input, button {
+    font-size: 20px;
+    padding: 1.5%;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+button {
+    align-self: flex-start;
+    width: 20%;
+    padding: 5px;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+select {
+    width: 60%;
+}
+
+input {
+    text-align: right;
+    width: 20%;
+}
+
+.output {
+    font-family: monospace;
+    margin-top: 10px;
+    font-size: 18px;
+}
